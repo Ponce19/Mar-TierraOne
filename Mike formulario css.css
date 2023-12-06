@@ -1,0 +1,63 @@
+
+  body{
+    background-image: url(Tacos.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  form{
+    width: 500px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top:150px;
+    border-radius: 8px;
+  }
+  h2{
+    color: #ffffff;
+    text-align: center;
+    margin: 20;
+    font-size: 30px;
+    margin-top:15px;
+  }
+  input,textarea{
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 7px;
+      box-sizing: border-box;
+      font-size: 23px;
+  }
+  textarea{
+    min-height: 40%;
+    max-height: 200px;
+    max-width: 1000px;
+  }
+  #ctex{
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 18px;
+  }
+  #boton{
+    background-color: #000000;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(249,247,247);
+    padding: 10px 20px;
+    border: 3px solid #080808;
+    border-radius: 30px;
+    margin-left: 8px;
+    transition: all 0.4s;
+  }
+  #boton:hover{
+    cursor: pointer;
+    background-color:#ff9408;
+    color: #000000;
+  }
+  @media(max-width: 480px){
+    form{
+        width:100%;
+    }
+  }
+
